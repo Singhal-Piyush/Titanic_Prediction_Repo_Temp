@@ -34,13 +34,13 @@ embarked_S = 1 if embarked == "S" else 0
 # Create DataFrame in same order as training features
 input_data = pd.DataFrame({
     'Pclass': [pclass],
-    'Sex': [sex],
     'Age': [age],
     'SibSp': [0],
     'Parch': [0],
     'Fare': [fare],
-    'Embarked_Q': [embarked_Q],
-    'Embarked_S': [embarked_S]
+    'encoded_male': [sex],
+    'encoded_Q': [embarked_Q],
+    'encoded_S': [embarked_S]
 })
 
 # -------------------------------
