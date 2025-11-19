@@ -5,7 +5,7 @@ import pickle
 # -------------------------------
 # Laod the trained model
 # -------------------------------
-model = pickle.load(open('logistic_model.pkl','rb'))
+model = pickle.load(open('titanic_model.pkl','rb'))
 
 # -------------------------------
 # App Title
